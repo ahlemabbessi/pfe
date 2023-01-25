@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media print {
+  input,
+  button,
+  select,
+  .add,
+  textarea
+   {
+    display: none;
+  }
+}
+
+
+.printbtn {
+  width: 170px;
+  height: 90px;
+  background-color: green;
+}
+
+/* /////////////////// */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid #0a0a0a;
+  text-align: cn;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(49, 159, 222)!important;
+}
+
+td {
+  background-color: rgb(184, 194, 197)!important;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+input[type=text]{
+  width: 60%;
+}
+.title{
+  text-align: center;
+  color: red;
+}
+textarea{
+  width: 901px;
+  height: 157px;
+  resize: none;
+}
